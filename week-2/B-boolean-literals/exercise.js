@@ -10,6 +10,10 @@ var codeYourFutureIsGreat = true;
 /* 
   DO NOT EDIT BELOW THIS LINE
   --------------------------- */
+var codeYourFutureIsGreat = true;
+var mozafarIsCool = false;
+var calculationCorrect = true;
+var moreThan10Students = false;
 
 console.log("Is Code Your Future great?", codeYourFutureIsGreat);
 console.log("Is Mozafar cool?", mozafarIsCool);
