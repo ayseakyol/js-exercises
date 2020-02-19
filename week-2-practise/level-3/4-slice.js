@@ -5,7 +5,10 @@
 // - insert the replacement value at the provided index
 
 function replace(arr, index, value) {
-  return; // complete this statement
+  return arr
+    .slice(0, index)
+    .concat([value])
+    .concat(arr.slice(index + 1)); // complete this statement
 }
 
 /* 
@@ -23,8 +26,10 @@ console.log(names);
 console.log(newNames);
 
 /* 
+
   EXPECTED RESULT
   ---------------
+
   [1, 3, 3]
   [1, 2, 3]
   [Irina, Ashleigh, Mozafar]
